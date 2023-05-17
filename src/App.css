@@ -1,0 +1,235 @@
+/*Geral*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #12121e;
+}
+
+li a {
+  color: #9f47f1;
+  text-decoration: none;
+}
+
+#btn {
+  text-align: center;
+  margin-top: .5rem;
+  width: 200px;
+  height: 35px;
+  border-radius: 20px;
+  border: 0;
+  background-color: #9f47f1;
+  color: white;
+  font-size: 20px;
+  font-family: "Helvetica Neue, Helvetica, Arial, sans-serif";
+  cursor: pointer;
+}
+
+
+/*Conteudo do menu*/
+
+
+.nav-bar {
+  background-color: #12121e;
+  width: 100%;
+  text-align: center;
+}
+.nav-bar a::after{
+  content:" ";
+  width: 100%;
+  height: 1px;
+  background-color: #9f47f1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.list-nav-bar { 
+  margin-left: auto;
+  padding: .5rem;
+  color: #9f47f1;
+  font-weight: 200;
+  position: relative;
+}
+
+
+.li-nav-bar {
+  font-size: 20px;
+  
+  margin-right: 5%;
+  list-style: none;
+  display:inline-block;
+}
+
+.li-nav-bar:hover {
+  transform: scale(1.25,1.25);
+  color: white;
+}
+
+/*Contact*/
+
+#contatos {
+  margin-top: 10rem;
+}
+
+.div-contatos {
+  color: #9f47f1;
+  
+  text-align: center;
+  margin-top: 2rem;
+}
+.redes-contatos {
+  margin: 2rem;
+  text-align: center;
+  display: inline-block;
+}
+
+.formulario-contato {
+  color: #9f47f1;
+  margin: auto;
+  width: 220px;
+}
+
+
+form input {
+  width: 230px;
+}
+
+form fieldset {
+  border: 0;
+  padding: .2rem;
+}
+
+form label {
+  display: block;
+}
+
+#button-enviar {
+  width: 80px; 
+  height: 40px;
+}
+
+.button:hover {
+  background-color: #9f47f1;
+}
+
+
+/*Footer*/
+footer {
+  border-top: #9f47f1;
+  margin-top: 10rem;
+  width: 100%;
+  height: 80px;
+  background-color: #12121e;
+  color: white;
+  text-align: center;
+}
+
+#p-footer {
+  padding: 2rem;
+}
+
+.button:hover {
+  background-color: #9f47f1;
+}
+
+/*Classes vindas e scripts*/
+.invalid {
+  border: 2px solid red;
+}
+
+
+@media (max-width:400px) {
+  
+  .redes-contatos {
+      padding: 1rem;
+      text-align: center;
+      display: inline-block;
+  }
+
+  .titulo-page-myname {
+  
+      color: #9f47f1;
+      font-size: 15px;
+      font-weight: 200px;
+      width: 300px;
+      height: 60px;
+      margin-top: 0rem;
+      margin-right: 2rem;
+  }
+  .titulo-page-myname h4 {
+      color: white;
+      font-size: 15px;
+      font-weight: 200;
+  }
+
+  .my-img img {
+      margin-top: 2rem;
+      height: 250px;
+      width: 250px;
+  }
+  
+}
+
+@media (max-width:700px) {
+
+
+  .header-my-name_my-img {
+      color: white;
+      display: inline-block;
+      width: 100%;
+      margin-left: 1.5rem;
+  }
+
+  .container-curriculo {
+      height: auto;
+      width: 70%;
+      border-radius: 50px;
+      margin: auto;   
+  }
+
+  .redes-contatos {
+      padding: 1rem;
+      text-align: center;
+      display: inline-block;
+  }
+
+  .titulo-page-myname {
+  
+      color: #9f47f1;
+      font-size: 18px;
+      font-weight: 200px;
+      height: 60px;
+      margin-top: 1rem;
+      text-align: center;
+  }
+  .titulo-page-myname h4 {
+      color: white;
+      font-size: 19px;
+      font-weight: 200;
+  }
+
+  .my-img {
+      margin-top: 2rem;
+      height: 250px;
+      width: 250px;
+      margin-left: -.9rem;
+  }
+
+
+  .list-nav-bar {
+      font-size: 10px;
+  }
+
+  .li-nav-bar {
+      display: block;
+      padding: .3rem;
+  }
+}

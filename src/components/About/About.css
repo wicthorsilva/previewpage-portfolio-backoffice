@@ -1,0 +1,41 @@
+
+.titulos-page-conteudos {
+    color: #9f47f1;
+    font-size: 20px;
+    margin-top: 5rem;
+    text-align: center;
+  }
+  
+  .container-curriculo {
+    text-align: center;
+    margin: auto;   
+  }
+  
+  .conteudo-sobremim{
+    margin: auto;
+    width: 900px;
+    font-size: 20px;
+    margin-top: 2rem;
+  }
+  
+  
+  .h-conteudo-curriculo {
+    color: #9f47f1;
+    margin-left: auto;
+    
+    margin-top: 1.2rem;
+    
+  }
+  .text-conteudo-curriculo {
+    color: white;
+  
+  }
+
+  @media (max-width:480px) {
+    .conteudo-sobremim {
+        width: 300px;
+        font-size: 17px;
+    }
+
+
+}

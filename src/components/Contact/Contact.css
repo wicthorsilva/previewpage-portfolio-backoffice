@@ -1,0 +1,44 @@
+#contatos {
+    margin-top: 10rem;
+  }
+  
+  .div-contatos {
+    color: #9f47f1;
+    
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .redes-contatos {
+    margin: 2rem;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .formulario-contato {
+    color: #9f47f1;
+    margin: auto;
+    width: 220px;
+  }
+  
+  
+  form input {
+    width: 230px;
+  }
+  
+  form fieldset {
+    border: 0;
+    padding: .2rem;
+  }
+  
+  form label {
+    display: block;
+  }
+  
+  #button-enviar {
+    width: 80px; 
+    height: 40px;
+  }
+  
+  .button:hover {
+    background-color: #9f47f1;
+  }

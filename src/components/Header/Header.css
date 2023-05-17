@@ -1,0 +1,59 @@
+.header-principal {
+    background-color: #12121e;
+    width: 100%;
+    height: auto;
+  }
+  .header-my-name_my-img {
+    color: white;
+    display: flex;
+    text-align: center;
+  }
+  
+   .my-name_my-img {
+    margin: auto;
+   }
+  
+  #titulo-page-myname {
+    color: #9f47f1;
+    font-size: 25px;
+    font-weight: 200px;
+    margin-top: 10rem;
+  }
+  #titulo-page-myname h4 {
+    color: white;
+    font-size: 21px;
+    font-weight: 200;
+  }
+  #my-img img{ 
+    width: 350px;
+    height: 350px;
+  }
+  #my-img{ 
+    margin-top: 5rem;
+    margin-right: auto;
+  }
+
+  @media (max-width:480px) {
+    .header-my-name_my-img {
+        color: white;
+        display: block;
+        margin: auto;
+    }
+
+    .my-img img{  
+        width: 250px;
+        height: 250px;
+    }
+
+    #titulo-page-myname {
+      margin-top: 3rem;
+    }
+
+    .titulo-page-myname h1{
+        font-size: 40px;
+    }
+    .titulo-page-myname h4{
+        font-size: 20px;
+    }
+
+}
