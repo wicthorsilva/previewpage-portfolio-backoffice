@@ -25,12 +25,14 @@
     font-weight: 200;
   }
   #my-img img{ 
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
   }
   #my-img{ 
     margin-top: 5rem;
     margin-right: auto;
+    
   }
 
   @media (max-width:480px) {

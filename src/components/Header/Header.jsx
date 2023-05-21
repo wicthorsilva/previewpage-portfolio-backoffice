@@ -20,7 +20,7 @@ function Header(props) {
                         </div>
 
                         <div id="my-img">
-                            <img src={imgWicthor} alt="Imagem-Wicthor"/>
+                            <img src={foto} alt="Imagem-Wicthor"/>
                         </div>
             </div>
       </div>
