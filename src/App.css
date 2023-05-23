@@ -10,7 +10,7 @@ html {
 }
 
 body{
-  background-color: #12121e;
+  background-color: #070707;
 }
 
 li a {
@@ -37,7 +37,7 @@ li a {
 
 
 .nav-bar {
-  background-color: #12121e;
+  background-color: #070707;
   width: 100%;
   text-align: center;
   position: sticky;
@@ -130,7 +130,7 @@ footer {
   margin-top: 10rem;
   width: 100%;
   height: 80px;
-  background-color: #12121e;
+  background-color: #070707;
   color: white;
   text-align: center;
 }
