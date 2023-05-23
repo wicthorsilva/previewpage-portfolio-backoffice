@@ -18,6 +18,7 @@ function About(props) {
                 <div className="container-curriculo">
                     <div className="conteudo-sobremim">
                         <p className="text-conteudo-curriculo">{resumo}</p>
+                        
                     </div>
                 </div>
         </section>
