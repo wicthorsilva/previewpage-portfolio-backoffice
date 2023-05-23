@@ -6,7 +6,7 @@ import reactPlugin from 'vite-plugin-react'
  */
 const config = {
   jsx: 'react',
-  base: "/previewpage-portfolio-backoffice-react-router",
+  
   plugins: [reactPlugin]
 }
 
