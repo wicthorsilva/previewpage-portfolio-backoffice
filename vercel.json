@@ -1,5 +1,15 @@
 {
-    "rewrites": [{"source": "/(.*)",
-    "destination":"/"
-    }]
-}
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/",
+        "has": [
+          {
+            "type": "file",
+            "value": "*.js"
+          }
+        ]
+      }
+    ]
+  }
+  
