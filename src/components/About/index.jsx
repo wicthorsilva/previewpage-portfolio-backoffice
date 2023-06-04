@@ -3,10 +3,10 @@ import React from "react";
 import "./About.css";
 
 function About(props) {
-    const {resumo, experienciaAcademica, experienciaProfissional} = props.about;
+    const {resumo} = props.about;
 
-    if(!resumo || !experienciaAcademica || !experienciaProfissional){
-        return <p>Carregando...</p>
+    if(!resumo){
+        return <p className="carregamento-page" >Carregando...</p>
     }
     
     return (
@@ -18,7 +18,6 @@ function About(props) {
                 <div className="container-curriculo">
                     <div className="conteudo-sobremim">
                         <p className="text-conteudo-curriculo">{resumo}</p>
-                        
                     </div>
                 </div>
         </section>

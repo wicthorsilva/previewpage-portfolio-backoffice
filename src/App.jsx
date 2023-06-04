@@ -23,23 +23,23 @@ function App() {
 
   const fetchDados = async () => {
     try {
-      const informacao = await api.get('./informacoes/1');
+      const informacao = await api.get(`./informacoes/1`);
       setInformacoes({
         foto: informacao.data.foto,
         nome: informacao.data.nome,
         cargo: informacao.data.cargo,
       });
 
-      const experienciaAcademica = await api.get('/experiencias?tipo=academica');
-      const experienciaProfissional = await api.get('/experiencias?tipo=profissional');
+      // const experienciaAcademica = await api.get('/experiencias?tipo=academica');
+      // const experienciaProfissional = await api.get('/experiencias?tipo=profissional');
 
       setAbout({
         resumo: informacao.data.resumo,
-        experienciaAcademica: experienciaAcademica.data,
-        experienciaProfissional: experienciaProfissional.data
+        // experienciaAcademica: experienciaAcademica.data,
+        // experienciaProfissional: experienciaProfissional.data
       });
 
-      const projects = await api.get('/projects');
+      const projects = await api.get(`/projects`);
       setProjects(projects.data);
 
     } catch (error) {
