@@ -8,6 +8,11 @@
     margin-top: 2rem;
     overflow: hidden;
   }
+
+  .boxs-cards img {
+    width: 300px;
+    height: 200px;
+  }
   
   .boxs-cards:hover {
     transform: scale(1.25,1.25);
